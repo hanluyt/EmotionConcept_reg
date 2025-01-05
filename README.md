@@ -11,3 +11,26 @@ Step 1 Computation of visual emotion code
 
 Note: You can modify the `directory` and `save_dir` in the [vae.yaml](https://github.com/hanluyt/EmotionConcept_reg/blob/main/code_VAE/vae.yaml) to suit your setup.
 
+Step 2 Analysis of visual emotion code
+-------
+See [subgroup.R](https://github.com/hanluyt/EmotionConcept_reg/blob/main/subgroup.R)
+* Clustering analysis
+* Computation of information gain
+* The symptom difference between different clusters
+
+Step 3 Mapping between visual emotion code and CRPN 
+-------
+See [mapping_occipital.R](https://github.com/hanluyt/EmotionConcept_reg/blob/main/mapping_occipital.R)
+* 1000 spin tests
+* Comparison with a vanilla convolutional neural network without the concept-regularization
+
+Step 4 Manipulation of CRPN and prediction model
+-------
+See [ANN_perturbation.R](https://github.com/hanluyt/EmotionConcept_reg/blob/main/ANN_perturbation.R)
+
+Step 5 Generalization of the over-regularization using STRATIFY cohort
+-------
+See [stratify_val.R](https://github.com/hanluyt/EmotionConcept_reg/blob/main/stratify_val.R)
+
+
+
