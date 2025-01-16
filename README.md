@@ -1,4 +1,4 @@
-# Manipulating Deep Neural Network Reveals Optimal Regularization in Angry Face Coding and Its Dysregulation in Depression
+# Regularized Deep Learning Reveals Visual Emotion Coding Disruptions in Depression
 
 Step 1 Computation of visual emotion code
 -------
